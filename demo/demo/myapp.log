@@ -1,0 +1,816 @@
+2023-04-18 02:23:35.163  INFO 27544 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 27544 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 02:23:35.208  INFO 27544 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 02:23:35.734 DEBUG 27544 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 02:23:41.001  INFO 27544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 02:23:41.137  INFO 27544 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 0 JPA repository interfaces.
+2023-04-18 02:23:43.718  INFO 27544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 02:23:47.452  INFO 27544 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 02:23:47.866  INFO 27544 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 02:23:48.574  INFO 27544 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 02:23:49.322  INFO 27544 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 02:23:49.914  INFO 27544 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 02:23:52.178  INFO 27544 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 02:23:52.318  INFO 27544 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 02:23:54.496  WARN 27544 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 02:23:57.765 DEBUG 27544 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 02:23:59.007 DEBUG 27544 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 02:23:59.722 DEBUG 27544 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 02:23:59.833 DEBUG 27544 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 02:24:01.397  INFO 27544 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 29.774 seconds (JVM running for 35.062)
+2023-04-18 02:24:01.400  INFO 27544 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 02:24:01.406  INFO 27544 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 02:24:18.870  INFO 17144 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 17144 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 02:24:18.881  INFO 17144 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 02:24:22.670  INFO 17144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 02:24:22.752  INFO 17144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2023-04-18 02:24:26.441  INFO 17144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 02:24:26.521  INFO 17144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 02:24:26.522  INFO 17144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 02:24:26.896  INFO 17144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 02:24:26.899  INFO 17144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7674 ms
+2023-04-18 02:24:27.843  INFO 17144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 02:24:30.337  INFO 17144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 02:24:30.711  INFO 17144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 02:24:31.138  INFO 17144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 02:24:31.854  INFO 17144 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 02:24:32.372  INFO 17144 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 02:24:34.978  INFO 17144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 02:24:35.107  INFO 17144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 02:24:35.643  WARN 17144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 02:24:37.009 DEBUG 17144 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 02:24:37.628 DEBUG 17144 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 02:24:37.940 DEBUG 17144 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 02:24:38.072 DEBUG 17144 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 02:24:38.586  INFO 17144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 02:24:38.705  INFO 17144 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 22.447 seconds (JVM running for 24.685)
+2023-04-18 02:24:38.773  INFO 17144 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 02:24:38.868  INFO 17144 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 02:25:01.419  INFO 17144 --- [http-nio-8081-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 02:25:01.421  INFO 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 02:25:01.423 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 02:25:01.425 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 02:25:01.426 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 02:25:01.430 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18e36d14
+2023-04-18 02:25:01.433 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4066c471
+2023-04-18 02:25:01.434 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 02:25:01.435  INFO 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2023-04-18 02:25:01.544 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/records/1", parameters={}
+2023-04-18 02:25:01.631 DEBUG 17144 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#saveRecord(double)
+2023-04-18 02:25:02.394 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 02:25:02.398 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2023-04-18 02:25:02.453 DEBUG 17144 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2023-04-18 02:31:45.440  INFO 23384 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 23384 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 02:31:45.561  INFO 23384 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 02:31:45.853 DEBUG 23384 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 02:31:50.286  INFO 23384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 02:31:50.543  INFO 23384 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 165 ms. Found 0 JPA repository interfaces.
+2023-04-18 02:31:55.140  INFO 23384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 02:31:58.955  INFO 23384 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 02:31:59.340  INFO 23384 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 02:31:59.844  INFO 23384 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 02:32:00.821  INFO 23384 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 02:32:01.573  INFO 23384 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 02:32:03.978  INFO 23384 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 02:32:04.155  INFO 23384 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 02:32:06.184  WARN 23384 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 02:32:08.229 DEBUG 23384 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 02:32:08.971 DEBUG 23384 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 02:32:09.570 DEBUG 23384 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 02:32:09.671 DEBUG 23384 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 02:32:11.627  INFO 23384 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 29.449 seconds (JVM running for 33.969)
+2023-04-18 02:32:11.644  INFO 23384 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 02:32:11.673  INFO 23384 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 10:59:16.827  INFO 784 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 784 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 10:59:16.884  INFO 784 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 10:59:22.729  INFO 784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 10:59:22.877  INFO 784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 JPA repository interfaces.
+2023-04-18 10:59:28.808  INFO 784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 10:59:28.893  INFO 784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 10:59:28.896  INFO 784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 10:59:29.401  INFO 784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 10:59:29.405  INFO 784 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12006 ms
+2023-04-18 10:59:30.575  INFO 784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 10:59:34.067  INFO 784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 10:59:34.684  INFO 784 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 10:59:35.228  INFO 784 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 10:59:35.984  INFO 784 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 10:59:36.722  INFO 784 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 10:59:39.302  INFO 784 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 10:59:39.438  INFO 784 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 10:59:40.231  WARN 784 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 10:59:41.809 DEBUG 784 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 10:59:42.795 DEBUG 784 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 10:59:43.338 DEBUG 784 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 10:59:43.771 DEBUG 784 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 10:59:44.806  INFO 784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 10:59:45.235  INFO 784 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 32.322 seconds (JVM running for 35.018)
+2023-04-18 10:59:45.241  INFO 784 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 10:59:45.370  INFO 784 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 10:59:55.168  INFO 784 --- [http-nio-8081-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 10:59:55.172  INFO 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 10:59:55.174 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 10:59:55.176 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 10:59:55.178 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 10:59:55.182 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@18e36d14
+2023-04-18 10:59:55.185 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4066c471
+2023-04-18 10:59:55.186 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 10:59:55.188  INFO 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2023-04-18 10:59:55.343 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/records/1", parameters={}
+2023-04-18 10:59:55.607 DEBUG 784 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#saveRecord(double)
+2023-04-18 10:59:56.879 DEBUG 784 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 10:59:56.909 DEBUG 784 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2023-04-18 10:59:56.999 DEBUG 784 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2023-04-18 11:17:28.873  INFO 21468 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 21468 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 11:17:28.882  INFO 21468 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 11:17:29.728 DEBUG 21468 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 11:17:38.245  INFO 21468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 11:17:38.483  INFO 21468 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 0 JPA repository interfaces.
+2023-04-18 11:17:48.188  INFO 21468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 11:18:11.646  INFO 21468 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 11:18:12.792  INFO 21468 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 11:18:13.855  INFO 21468 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 11:18:16.896  INFO 21468 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 11:18:19.307  INFO 21468 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 11:18:23.421  INFO 21468 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 11:18:24.217  INFO 21468 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 11:18:24.360  INFO 21468 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 11:18:26.435  WARN 21468 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 11:18:31.008 DEBUG 21468 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 11:18:32.165 DEBUG 21468 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 11:18:33.314 DEBUG 21468 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 11:18:33.595 DEBUG 21468 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 11:18:35.540  INFO 21468 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 71.26 seconds (JVM running for 80.687)
+2023-04-18 11:18:35.558  INFO 21468 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 11:18:35.671  INFO 21468 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 11:19:28.555  INFO 28564 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 28564 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 11:19:28.566  INFO 28564 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 11:19:33.055  INFO 28564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 11:19:33.326  INFO 28564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
+2023-04-18 11:19:38.206  INFO 28564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 11:19:38.389  INFO 28564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 11:19:38.401  INFO 28564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 11:19:39.127  INFO 28564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 11:19:39.132  INFO 28564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9939 ms
+2023-04-18 11:19:40.564  INFO 28564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 11:19:43.888  INFO 28564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 11:19:44.451  INFO 28564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 11:19:45.470  INFO 28564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 11:19:46.417  INFO 28564 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 11:19:47.111  INFO 28564 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 11:19:49.301  INFO 28564 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 11:19:50.014  INFO 28564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 11:19:50.121  INFO 28564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 11:19:51.088  WARN 28564 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 11:19:52.540 DEBUG 28564 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 11:19:53.338 DEBUG 28564 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 11:19:53.918 DEBUG 28564 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 11:19:54.255 DEBUG 28564 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 11:19:55.286  INFO 28564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 11:19:56.054  INFO 28564 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 30.716 seconds (JVM running for 33.141)
+2023-04-18 11:19:56.105  INFO 28564 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 11:19:56.309  INFO 28564 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 11:20:06.026  INFO 28564 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 11:20:06.029  INFO 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 11:20:06.034 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 11:20:06.036 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 11:20:06.039 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 11:20:06.044 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7d286fb6
+2023-04-18 11:20:06.047 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6cb6decd
+2023-04-18 11:20:06.049 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 11:20:06.067  INFO 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 33 ms
+2023-04-18 11:20:06.339 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/records/1", parameters={}
+2023-04-18 11:20:06.396 DEBUG 28564 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#saveRecord(double)
+2023-04-18 11:20:07.933 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 11:20:07.965 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2023-04-18 11:20:08.124 DEBUG 28564 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2023-04-18 11:59:52.613  INFO 19324 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 19324 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 11:59:52.652  INFO 19324 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 11:59:53.584 DEBUG 19324 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 12:00:03.245  INFO 19324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:00:03.629  INFO 19324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 274 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:00:13.212  INFO 19324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:00:42.226  INFO 19324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:00:43.470  INFO 19324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:00:44.201  INFO 19324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:00:45.620  INFO 19324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:00:48.236  INFO 19324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:00:55.342  INFO 19324 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:00:56.857  INFO 19324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:00:57.406  INFO 19324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:01:01.403  WARN 19324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:01:05.505 DEBUG 19324 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:01:07.217 DEBUG 19324 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:01:08.426 DEBUG 19324 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:01:08.852 DEBUG 19324 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:01:13.359  INFO 19324 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 86.401 seconds (JVM running for 95.11)
+2023-04-18 12:01:13.411  INFO 19324 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:01:13.438  INFO 19324 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:04:54.426  INFO 26192 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 26192 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 12:04:54.508  INFO 26192 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 12:04:54.906 DEBUG 26192 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 12:05:01.708  INFO 26192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:05:01.889  INFO 26192 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:05:09.038  INFO 26192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:05:35.756  INFO 26192 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:05:36.810  INFO 26192 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:05:37.327  INFO 26192 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:05:39.191  INFO 26192 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:05:40.321  INFO 26192 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:05:44.695  INFO 26192 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:05:46.492  INFO 26192 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:05:46.618  INFO 26192 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:05:50.066  WARN 26192 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:05:54.846 DEBUG 26192 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:05:55.605 DEBUG 26192 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:05:56.497 DEBUG 26192 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:05:56.686 DEBUG 26192 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:05:59.647  INFO 26192 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 70.94 seconds (JVM running for 77.233)
+2023-04-18 12:05:59.849  INFO 26192 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:05:59.855  INFO 26192 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:12:20.407  INFO 20840 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 20840 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 12:12:20.426  INFO 20840 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 12:12:20.704 DEBUG 20840 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 12:12:26.620  INFO 20840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:12:26.870  INFO 20840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:12:33.940  INFO 20840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:12:56.506  INFO 20840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:12:57.526  INFO 20840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:12:58.228  INFO 20840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:13:00.445  INFO 20840 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:13:02.958  INFO 20840 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:13:12.914  INFO 20840 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:13:14.944  INFO 20840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:13:15.227  INFO 20840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:13:18.459  WARN 20840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:13:21.893 DEBUG 20840 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:13:23.341 DEBUG 20840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:13:24.942 DEBUG 20840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:13:25.461 DEBUG 20840 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:13:29.431  INFO 20840 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 73.305 seconds (JVM running for 81.251)
+2023-04-18 12:13:29.434  INFO 20840 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:13:29.439  INFO 20840 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:14:51.180  INFO 29744 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 29744 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 12:14:51.734  INFO 29744 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 12:14:51.982 DEBUG 29744 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 12:14:59.466  INFO 29744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:14:59.917  INFO 29744 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 241 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:15:07.144  INFO 29744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:15:33.691  INFO 29744 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:15:34.653  INFO 29744 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:15:35.239  INFO 29744 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:15:37.357  INFO 29744 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:15:38.770  INFO 29744 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:15:44.069  INFO 29744 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:15:46.203  INFO 29744 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:15:46.494  INFO 29744 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:15:50.577  WARN 29744 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:15:55.675 DEBUG 29744 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:15:57.705 DEBUG 29744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:15:59.853 DEBUG 29744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:16:00.387 DEBUG 29744 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:16:04.865  INFO 29744 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 78.152 seconds (JVM running for 84.22)
+2023-04-18 12:16:04.915  INFO 29744 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:16:04.921  INFO 29744 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:27:09.043  INFO 31232 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 31232 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 12:27:09.392  INFO 31232 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 12:27:09.859 DEBUG 31232 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 12:27:18.310  INFO 31232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:27:18.601  INFO 31232 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 230 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:27:25.649  INFO 31232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:27:52.750  INFO 31232 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:27:54.091  INFO 31232 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:27:54.673  INFO 31232 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:27:57.231  INFO 31232 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:27:58.617  INFO 31232 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:28:03.728  INFO 31232 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:28:04.326  INFO 31232 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:28:04.446  INFO 31232 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:28:07.221  WARN 31232 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:28:09.842 DEBUG 31232 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:28:11.138 DEBUG 31232 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:28:12.684 DEBUG 31232 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:28:13.019 DEBUG 31232 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:28:15.095  INFO 31232 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 70.73 seconds (JVM running for 79.566)
+2023-04-18 12:28:15.103  INFO 31232 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:28:15.109  INFO 31232 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:33:17.225  INFO 23128 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 23128 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 12:33:17.259  INFO 23128 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 12:33:17.959 DEBUG 23128 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 12:33:25.113  INFO 23128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:33:25.361  INFO 23128 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 133 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:33:30.732  INFO 23128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:33:58.997  INFO 23128 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:34:00.141  INFO 23128 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:34:01.137  INFO 23128 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:34:03.217  INFO 23128 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:34:05.082  INFO 23128 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:34:10.033  INFO 23128 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:34:11.263  INFO 23128 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:34:11.593  INFO 23128 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:34:14.484  WARN 23128 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:34:17.515 DEBUG 23128 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:34:18.549 DEBUG 23128 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:34:19.389 DEBUG 23128 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:34:20.034 DEBUG 23128 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:34:23.009  INFO 23128 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 69.468 seconds (JVM running for 77.838)
+2023-04-18 12:34:23.094  INFO 23128 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:34:23.099  INFO 23128 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:35:48.953  INFO 13012 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 13012 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 12:35:48.963  INFO 13012 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 12:35:54.475  INFO 13012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 12:35:54.686  INFO 13012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 0 JPA repository interfaces.
+2023-04-18 12:36:01.303  INFO 13012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 12:36:01.549  INFO 13012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 12:36:01.552  INFO 13012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 12:36:02.076  INFO 13012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 12:36:02.078  INFO 13012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12483 ms
+2023-04-18 12:36:03.408  INFO 13012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 12:36:07.364  INFO 13012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 12:36:07.818  INFO 13012 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 12:36:08.514  INFO 13012 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 12:36:09.457  INFO 13012 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 12:36:10.452  INFO 13012 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 12:36:12.951  INFO 13012 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 12:36:13.502  INFO 13012 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 12:36:13.562  INFO 13012 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 12:36:14.370  WARN 13012 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 12:36:15.961 DEBUG 13012 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 12:36:17.142 DEBUG 13012 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 12:36:17.639 DEBUG 13012 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 12:36:18.004 DEBUG 13012 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 12:36:18.895  INFO 13012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 12:36:19.316  INFO 13012 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 33.52 seconds (JVM running for 36.052)
+2023-04-18 12:36:19.609  INFO 13012 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 12:36:19.642  INFO 13012 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 12:37:25.091  INFO 13012 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 12:37:25.100  INFO 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 12:37:25.102 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 12:37:25.104 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 12:37:25.107 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 12:37:25.117 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@48793bef
+2023-04-18 12:37:25.188 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@327af41b
+2023-04-18 12:37:25.211 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 12:37:25.236  INFO 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 134 ms
+2023-04-18 12:37:25.468 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/records/1", parameters={}
+2023-04-18 12:37:25.686 DEBUG 13012 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#saveRecord(BigDecimal)
+2023-04-18 12:37:27.043 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 12:37:27.062 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2023-04-18 12:37:27.717 DEBUG 13012 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-04-18 12:38:35.747 DEBUG 13012 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/records/2", parameters={}
+2023-04-18 12:38:35.756 DEBUG 13012 --- [http-nio-8081-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#saveRecord(BigDecimal)
+2023-04-18 12:38:36.215 DEBUG 13012 --- [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 12:38:36.396 DEBUG 13012 --- [http-nio-8081-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2023-04-18 12:38:36.399 DEBUG 13012 --- [http-nio-8081-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-04-18 12:39:39.250 DEBUG 13012 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/records/3.50", parameters={}
+2023-04-18 12:39:39.263 DEBUG 13012 --- [http-nio-8081-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#saveRecord(BigDecimal)
+2023-04-18 12:39:39.904 DEBUG 13012 --- [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 12:39:39.914 DEBUG 13012 --- [http-nio-8081-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2023-04-18 12:39:39.916 DEBUG 13012 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-04-18 12:44:56.378 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/balances", parameters={}
+2023-04-18 12:44:56.388 DEBUG 13012 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#getBalanceHistory(LocalDateTime, LocalDateTime)
+2023-04-18 12:44:56.402 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public java.lang.String com.example.demo.controller.WalletController.getBalanceHistory(java.time.LocalDateTime,java.time.LocalDateTime): Required request parameter 'startDatetime' for method parameter type LocalDateTime is not present
+2023-04-18 12:44:56.475  WARN 13012 --- [http-nio-8081-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDatetime' for method parameter type LocalDateTime is not present]
+2023-04-18 12:44:56.484 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2023-04-18 12:44:56.504 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-04-18 12:44:56.543 DEBUG 13012 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-04-18 12:44:56.687 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 12:44:56.725 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Apr 18 12:44:56 IST 2023, status=400, error=Bad Request, path=/balances}]
+2023-04-18 12:44:56.938 DEBUG 13012 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2023-04-18 15:37:58.281  INFO 28992 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 28992 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 15:37:58.293  INFO 28992 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 15:37:58.739 DEBUG 28992 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 15:38:08.752  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 15:38:09.436  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 405 ms. Found 0 JPA repository interfaces.
+2023-04-18 15:38:20.548  INFO 28992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 15:38:48.706  INFO 28992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 15:38:50.149  INFO 28992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 15:38:51.693  INFO 28992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 15:38:55.362  INFO 28992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 15:38:59.358  INFO 28992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 15:39:15.722  INFO 28992 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 15:39:18.168  INFO 28992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 15:39:18.323  INFO 28992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 15:39:22.866  WARN 28992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 15:39:28.865 DEBUG 28992 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 15:39:32.000 DEBUG 28992 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 15:39:33.910 DEBUG 28992 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 15:39:34.237 DEBUG 28992 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 15:39:39.459  INFO 28992 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 107.373 seconds (JVM running for 116.152)
+2023-04-18 15:39:39.489  INFO 28992 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 15:39:39.607  INFO 28992 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 15:41:21.302  INFO 29496 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 29496 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 15:41:21.315  INFO 29496 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 15:41:28.615  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 15:41:29.133  INFO 29496 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 0 JPA repository interfaces.
+2023-04-18 15:41:37.454  INFO 29496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 15:41:37.828  INFO 29496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 15:41:37.831  INFO 29496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 15:41:39.192  INFO 29496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 15:41:39.740  INFO 29496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17532 ms
+2023-04-18 15:41:42.798  INFO 29496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 15:41:48.733  INFO 29496 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 15:41:49.454  INFO 29496 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 15:41:50.679  INFO 29496 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 15:41:51.849  INFO 29496 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 15:41:52.863  INFO 29496 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 15:41:55.942  INFO 29496 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 15:41:56.784  INFO 29496 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 15:41:57.320  INFO 29496 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 15:41:58.529  WARN 29496 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 15:42:00.552 DEBUG 29496 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 15:42:01.474 DEBUG 29496 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 15:42:02.153 DEBUG 29496 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 15:42:02.415 DEBUG 29496 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 15:42:04.608  INFO 29496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 15:42:05.156  INFO 29496 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 49.764 seconds (JVM running for 54.133)
+2023-04-18 15:42:05.161  INFO 29496 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 15:42:05.168  INFO 29496 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 15:54:18.113  INFO 29496 --- [http-nio-8081-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 15:54:18.126  INFO 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 15:54:18.128 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 15:54:18.130 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 15:54:18.131 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 15:54:18.136 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@48793bef
+2023-04-18 15:54:18.138 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@327af41b
+2023-04-18 15:54:18.140 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 15:54:18.141  INFO 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2023-04-18 15:54:18.309 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/balances", parameters={}
+2023-04-18 15:54:18.371 DEBUG 29496 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#getBalanceHistory(DateTimeRange)
+2023-04-18 15:54:20.064 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.method.HandlerMethod             : Could not resolve parameter [0] in public java.lang.String com.example.demo.controller.WalletController.getBalanceHistory(com.example.demo.model.DateTimeRange): JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-04-18T00:00:01+00:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-04-18T00:00:01+00:00' could not be parsed, unparsed text found at index 19; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-04-18T00:00:01+00:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-04-18T00:00:01+00:00' could not be parsed, unparsed text found at index 19
+ at [Source: (PushbackInputStream); line: 2, column: 22] (through reference chain: com.example.demo.model.DateTimeRange["startDatetime"])
+2023-04-18 15:54:20.095  WARN 29496 --- [http-nio-8081-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-04-18T00:00:01+00:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-04-18T00:00:01+00:00' could not be parsed, unparsed text found at index 19; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.time.LocalDateTime` from String "2023-04-18T00:00:01+00:00": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2023-04-18T00:00:01+00:00' could not be parsed, unparsed text found at index 19
+ at [Source: (PushbackInputStream); line: 2, column: 22] (through reference chain: com.example.demo.model.DateTimeRange["startDatetime"])]
+2023-04-18 15:54:20.105 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 400 BAD_REQUEST
+2023-04-18 15:54:20.131 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-04-18 15:54:20.195 DEBUG 29496 --- [http-nio-8081-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-04-18 15:54:20.471 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 15:54:20.477 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Apr 18 15:54:20 IST 2023, status=400, error=Bad Request, path=/balances}]
+2023-04-18 15:54:20.978 DEBUG 29496 --- [http-nio-8081-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 400
+2023-04-18 17:01:53.385  INFO 16684 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 16684 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 17:01:53.408  INFO 16684 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 17:01:53.617 DEBUG 16684 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 17:01:55.906  INFO 16684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 17:01:55.977  INFO 16684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JPA repository interfaces.
+2023-04-18 17:01:58.170  INFO 16684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 17:02:02.631  INFO 16684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 17:02:02.917  INFO 16684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 17:02:03.265  INFO 16684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 17:02:03.852  INFO 16684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 17:02:04.265  INFO 16684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 17:02:06.126  INFO 16684 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 17:02:06.720  INFO 16684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 17:02:06.772  INFO 16684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 17:02:08.310  WARN 16684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 17:02:09.501 DEBUG 16684 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 17:02:10.030 DEBUG 16684 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 17:02:10.427 DEBUG 16684 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 17:02:10.507 DEBUG 16684 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 17:02:11.519  INFO 16684 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 20.926 seconds (JVM running for 27.549)
+2023-04-18 17:02:11.522  INFO 16684 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 17:02:11.530  INFO 16684 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 17:05:01.319  INFO 28532 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 28532 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 17:05:01.329  INFO 28532 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 17:05:06.357  INFO 28532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 17:05:06.490  INFO 28532 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 0 JPA repository interfaces.
+2023-04-18 17:05:11.354  INFO 28532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 17:05:11.457  INFO 28532 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 17:05:11.459  INFO 28532 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 17:05:11.919  INFO 28532 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 17:05:11.921  INFO 28532 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10137 ms
+2023-04-18 17:05:13.358  INFO 28532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 17:05:16.617  INFO 28532 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 17:05:16.894  INFO 28532 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 17:05:17.572  INFO 28532 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 17:05:18.815  INFO 28532 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 17:05:19.528  INFO 28532 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 17:05:21.581  INFO 28532 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 17:05:21.922  INFO 28532 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 17:05:22.022  INFO 28532 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 17:05:22.610  WARN 28532 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 17:05:23.894 DEBUG 28532 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 17:05:24.314 DEBUG 28532 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 17:05:24.733 DEBUG 28532 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 17:05:24.966 DEBUG 28532 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 17:05:25.701  INFO 28532 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 17:05:25.881  INFO 28532 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 27.888 seconds (JVM running for 30.163)
+2023-04-18 17:05:25.888  INFO 28532 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 17:05:25.901  INFO 28532 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 17:05:36.376  INFO 28532 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 17:05:36.380  INFO 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 17:05:36.381 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 17:05:36.383 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 17:05:36.385 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 17:05:36.389 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7b8b43c7
+2023-04-18 17:05:36.391 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@f99f5e0
+2023-04-18 17:05:36.393 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 17:05:36.397  INFO 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2023-04-18 17:05:36.666 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/balances", parameters={}
+2023-04-18 17:05:36.866 DEBUG 28532 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#getBalanceHistory(DateTimeRange)
+2023-04-18 17:05:37.935 DEBUG 28532 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.demo.model.DateTimeRange@6a50b859]
+2023-04-18 17:05:38.645 DEBUG 28532 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-04-18 17:05:38.658 DEBUG 28532 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [""]
+2023-04-18 17:05:38.732 DEBUG 28532 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-04-18 22:23:19.089  INFO 11992 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 11992 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:23:19.116  INFO 11992 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 22:23:20.058 DEBUG 11992 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 22:23:29.950  INFO 11992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:23:30.332  INFO 11992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 199 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:23:39.482  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:24:01.101  INFO 11992 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:24:02.651  INFO 11992 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:24:03.932  INFO 11992 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:24:07.182  INFO 11992 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:24:09.499  INFO 11992 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:24:14.281  INFO 11992 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:24:14.429  INFO 11992 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:24:15.306  INFO 11992 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:24:15.429  INFO 11992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:24:17.786  WARN 11992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:24:20.912 DEBUG 11992 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:24:21.823 DEBUG 11992 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:24:22.852 DEBUG 11992 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:24:23.417 DEBUG 11992 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:24:25.986  INFO 11992 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 72.894 seconds (JVM running for 79.45)
+2023-04-18 22:24:25.993  INFO 11992 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:24:26.001  INFO 11992 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:24:51.429  INFO 11076 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 11076 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:24:51.439  INFO 11076 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 22:24:59.302  INFO 11076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:24:59.409  INFO 11076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:25:04.903  INFO 11076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 22:25:04.996  INFO 11076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 22:25:05.000  INFO 11076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 22:25:05.672  INFO 11076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 22:25:05.674  INFO 11076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13743 ms
+2023-04-18 22:25:07.322  INFO 11076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:25:11.052  INFO 11076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:25:11.489  INFO 11076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:25:12.295  INFO 11076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:25:13.158  INFO 11076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:25:13.837  INFO 11076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:25:15.739  INFO 11076 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:25:15.871  INFO 11076 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:25:16.429  INFO 11076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:25:16.726  INFO 11076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:25:17.272  WARN 11076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:25:18.742 DEBUG 11076 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:25:19.389 DEBUG 11076 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:25:19.871 DEBUG 11076 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:25:19.923 DEBUG 11076 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:25:21.245  INFO 11076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 22:25:21.325  INFO 11076 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 33.02 seconds (JVM running for 36.134)
+2023-04-18 22:25:21.449  INFO 11076 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:25:21.574  INFO 11076 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:26:05.893  INFO 11076 --- [http-nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 22:26:05.896  INFO 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 22:26:05.897 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 22:26:05.899 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 22:26:05.901 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 22:26:05.905 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7fbdb894
+2023-04-18 22:26:05.907 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@147a5d08
+2023-04-18 22:26:05.911 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 22:26:05.913  INFO 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2023-04-18 22:26:06.179 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/balances", parameters={}
+2023-04-18 22:26:06.227 DEBUG 11076 --- [http-nio-8081-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#getBalanceHistory(DateTimeRange)
+2023-04-18 22:26:07.039 DEBUG 11076 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.demo.model.DateTimeRange@142793e8]
+2023-04-18 22:26:08.441 DEBUG 11076 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-04-18 22:26:08.445 DEBUG 11076 --- [http-nio-8081-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [""]
+2023-04-18 22:26:08.546 DEBUG 11076 --- [http-nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-04-18 22:29:08.944  INFO 10600 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 10600 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:29:08.953  INFO 10600 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 22:29:09.329 DEBUG 10600 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 22:29:13.840  INFO 10600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:29:14.030  INFO 10600 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:29:18.570  INFO 10600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:29:25.099  INFO 10600 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:29:25.501  INFO 10600 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:29:25.981  INFO 10600 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:29:27.067  INFO 10600 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:29:28.454  INFO 10600 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:29:30.926  INFO 10600 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:29:30.984  INFO 10600 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:29:31.746  INFO 10600 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:29:31.872  INFO 10600 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:29:34.062  WARN 10600 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:29:36.115 DEBUG 10600 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:29:36.966 DEBUG 10600 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:29:37.829 DEBUG 10600 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:29:37.967 DEBUG 10600 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:29:39.904  INFO 10600 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 33.734 seconds (JVM running for 38.518)
+2023-04-18 22:29:39.909  INFO 10600 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:29:39.915  INFO 10600 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:30:06.460  INFO 32144 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 32144 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:30:06.479  INFO 32144 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 22:30:10.196  INFO 32144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:30:10.378  INFO 32144 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:30:14.150  INFO 32144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 22:30:14.227  INFO 32144 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 22:30:14.242  INFO 32144 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 22:30:14.792  INFO 32144 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 22:30:14.796  INFO 32144 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7756 ms
+2023-04-18 22:30:16.387  INFO 32144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:30:19.442  INFO 32144 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:30:20.047  INFO 32144 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:30:20.666  INFO 32144 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:30:21.418  INFO 32144 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:30:21.982  INFO 32144 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:30:23.822  INFO 32144 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:30:23.973  INFO 32144 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:30:24.673  INFO 32144 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:30:24.727  INFO 32144 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:30:25.461  WARN 32144 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:30:26.569 DEBUG 32144 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:30:27.173 DEBUG 32144 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:30:27.653 DEBUG 32144 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:30:27.748 DEBUG 32144 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:30:28.659  INFO 32144 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 22:30:29.126  INFO 32144 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 25.377 seconds (JVM running for 28.033)
+2023-04-18 22:30:29.397  INFO 32144 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:30:29.518  INFO 32144 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:30:49.880  INFO 32144 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 22:30:49.884  INFO 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 22:30:49.885 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 22:30:49.887 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 22:30:49.889 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 22:30:49.892 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4e423aa2
+2023-04-18 22:30:49.896 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1bae316d
+2023-04-18 22:30:49.897 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 22:30:49.899  INFO 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2023-04-18 22:30:50.019 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/balances", parameters={}
+2023-04-18 22:30:50.040 DEBUG 32144 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#getBalanceHistory(DateTimeRange)
+2023-04-18 22:30:51.050 DEBUG 32144 --- [http-nio-8081-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.demo.model.DateTimeRange@4cebabf3]
+2023-04-18 22:30:51.685 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: OffsetSeconds
+2023-04-18 22:30:51.699 ERROR 32144 --- [http-nio-8081-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: OffsetSeconds] with root cause
+
+java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: OffsetSeconds
+	at java.time.LocalDate.get0(Unknown Source) ~[na:1.8.0_321]
+	at java.time.LocalDate.getLong(Unknown Source) ~[na:1.8.0_321]
+	at java.time.LocalDateTime.getLong(Unknown Source) ~[na:1.8.0_321]
+	at java.time.format.DateTimePrintContext.getValue(Unknown Source) ~[na:1.8.0_321]
+	at java.time.format.DateTimeFormatterBuilder$OffsetIdPrinterParser.format(Unknown Source) ~[na:1.8.0_321]
+	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(Unknown Source) ~[na:1.8.0_321]
+	at java.time.format.DateTimeFormatter.formatTo(Unknown Source) ~[na:1.8.0_321]
+	at java.time.format.DateTimeFormatter.format(Unknown Source) ~[na:1.8.0_321]
+	at java.time.LocalDateTime.format(Unknown Source) ~[na:1.8.0_321]
+	at com.example.demo.service.WalletService.lambda$sumAmountByHour$0(WalletService.java:44) ~[classes!/:0.0.1-SNAPSHOT]
+	at java.util.stream.Collectors.lambda$groupingBy$45(Unknown Source) ~[na:1.8.0_321]
+	at java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source) ~[na:1.8.0_321]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(Unknown Source) ~[na:1.8.0_321]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[na:1.8.0_321]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[na:1.8.0_321]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source) ~[na:1.8.0_321]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[na:1.8.0_321]
+	at java.util.stream.ReferencePipeline.collect(Unknown Source) ~[na:1.8.0_321]
+	at com.example.demo.service.WalletService.sumAmountByHour(WalletService.java:44) ~[classes!/:0.0.1-SNAPSHOT]
+	at com.example.demo.controller.WalletController.getBalanceHistory(WalletController.java:48) ~[classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_321]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_321]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_321]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_321]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.7.jar!/:5.3.7]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.7.jar!/:5.3.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.46.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.46.jar!/:na]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_321]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_321]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.46.jar!/:na]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_321]
+
+2023-04-18 22:30:51.854 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2023-04-18 22:30:51.934 DEBUG 32144 --- [http-nio-8081-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2023-04-18 22:30:52.126 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-04-18 22:30:52.138 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Apr 18 22:30:52 IST 2023, status=500, error=Internal Server Error, path=/balances}]
+2023-04-18 22:30:52.353 DEBUG 32144 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2023-04-18 22:34:21.204  INFO 28568 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 28568 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:34:21.233  INFO 28568 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 22:34:21.704 DEBUG 28568 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 22:34:25.938  INFO 28568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:34:26.084  INFO 28568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:34:29.120  INFO 28568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:34:32.793  INFO 28568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:34:33.090  INFO 28568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:34:33.446  INFO 28568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:34:34.078  INFO 28568 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:34:34.578  INFO 28568 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:34:36.001  INFO 28568 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:34:36.071  INFO 28568 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:34:36.437  INFO 28568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:34:36.644  INFO 28568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:34:38.576  WARN 28568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:34:40.172 DEBUG 28568 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:34:40.710 DEBUG 28568 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:34:41.270 DEBUG 28568 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:34:41.346 DEBUG 28568 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:34:42.712  INFO 28568 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 23.925 seconds (JVM running for 28.48)
+2023-04-18 22:34:42.717  INFO 28568 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:34:42.762  INFO 28568 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:34:55.742  INFO 9752 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication v0.0.1-SNAPSHOT using Java 1.8.0_321 on IN23GELML0421H2 with PID 9752 (C:\Swetha\demo\demo\target\demo-0.0.1-SNAPSHOT.jar started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:34:55.750  INFO 9752 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2023-04-18 22:34:59.388  INFO 9752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:34:59.468  INFO 9752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:35:03.106  INFO 9752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-04-18 22:35:03.172  INFO 9752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18 22:35:03.174  INFO 9752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-04-18 22:35:03.523  INFO 9752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18 22:35:03.526  INFO 9752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7504 ms
+2023-04-18 22:35:04.690  INFO 9752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:35:07.827  INFO 9752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:35:08.143  INFO 9752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:35:08.634  INFO 9752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:35:09.237  INFO 9752 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:35:09.667  INFO 9752 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:35:11.050  INFO 9752 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:35:11.129  INFO 9752 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:35:11.453  INFO 9752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:35:11.502  INFO 9752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:35:11.867  WARN 9752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:35:12.660 DEBUG 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:35:13.018 DEBUG 9752 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:35:13.290 DEBUG 9752 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:35:13.399 DEBUG 9752 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:35:13.866  INFO 9752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-04-18 22:35:13.950  INFO 9752 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 20.375 seconds (JVM running for 22.285)
+2023-04-18 22:35:13.974  INFO 9752 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:35:14.021  INFO 9752 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:35:28.883  INFO 9752 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18 22:35:28.884  INFO 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18 22:35:28.887 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2023-04-18 22:35:28.891 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2023-04-18 22:35:28.894 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2023-04-18 22:35:28.900 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7fbdb894
+2023-04-18 22:35:28.903 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@147a5d08
+2023-04-18 22:35:28.916 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2023-04-18 22:35:28.923  INFO 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2023-04-18 22:35:29.081 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/balances", parameters={}
+2023-04-18 22:35:29.112 DEBUG 9752 --- [http-nio-8081-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.WalletController#getBalanceHistory(DateTimeRange)
+2023-04-18 22:35:29.655 DEBUG 9752 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [com.example.demo.model.DateTimeRange@5e621252]
+2023-04-18 22:35:29.880 DEBUG 9752 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2023-04-18 22:35:29.883 DEBUG 9752 --- [http-nio-8081-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing ["{"2023-04-18T12:00":6.5}"]
+2023-04-18 22:35:29.948 DEBUG 9752 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2023-04-18 22:47:16.710  INFO 26700 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 26700 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:47:16.856  INFO 26700 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 22:47:17.170 DEBUG 26700 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 22:47:19.641  INFO 26700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:47:19.764  INFO 26700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:47:21.715  INFO 26700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18 22:47:25.814  INFO 26700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18 22:47:26.112  INFO 26700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18 22:47:26.477  INFO 26700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2023-04-18 22:47:27.162  INFO 26700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-18 22:47:27.677  INFO 26700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2023-04-18 22:47:30.630  INFO 26700 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Transaction (class must be instantiated by Interceptor)
+2023-04-18 22:47:30.716  INFO 26700 --- [main] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: com.example.demo.model.Balance (class must be instantiated by Interceptor)
+2023-04-18 22:47:31.763  INFO 26700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18 22:47:31.868  INFO 26700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18 22:47:34.140  WARN 26700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18 22:47:36.617 DEBUG 26700 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2023-04-18 22:47:37.203 DEBUG 26700 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 4 mappings in 'requestMappingHandlerMapping'
+2023-04-18 22:47:37.595 DEBUG 26700 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2023-04-18 22:47:37.761 DEBUG 26700 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2023-04-18 22:47:39.137  INFO 26700 --- [main] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 24.714 seconds (JVM running for 28.578)
+2023-04-18 22:47:39.142  INFO 26700 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2023-04-18 22:47:39.152  INFO 26700 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2023-04-18 22:48:43.424  INFO 26420 --- [main] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 1.8.0_261 on IN23GELML0421H2 with PID 26420 (started by Swetha.Mukuntharajan in C:\Swetha\demo\demo)
+2023-04-18 22:48:43.458  INFO 26420 --- [main] com.example.demo.DemoApplicationTests    : No active profile set, falling back to default profiles: default
+2023-04-18 22:48:43.940 DEBUG 26420 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5669c5fb
+2023-04-18 22:48:51.772  INFO 26420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18 22:48:51.994  INFO 26420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 0 JPA repository interfaces.
+2023-04-18 22:48:58.360  INFO 26420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...

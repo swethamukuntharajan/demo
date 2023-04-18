@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://IN23GELML0421H2\SQL2016LATEST;databaseName=BITCOIN
+    username: sa
+    password: Datac3rtsql
+
+
+
