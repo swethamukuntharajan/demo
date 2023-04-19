@@ -73,6 +73,8 @@ Instructions for working on the repository
 1. Clone the code from github repository.
 2. Open the project in IDE
 3. create table transactions in DB
+
+With ID, DateTime, Amount columns
 . change the credentials and DB details in application.yml file.
 3. Follow the below command
 	mvn clean install
